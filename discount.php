@@ -8,6 +8,11 @@ function discount2($price) {
     return $price / 2;
 }
 
+
+function discount3($price) {
+    return $price * 0.8;
+}
+
 function getPrice($discount = null) {
     $price = 100;
     if (isset($discount))
